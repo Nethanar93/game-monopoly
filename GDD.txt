@@ -1,0 +1,45 @@
+Story
+Characters
+Level/environment design
+Gameplay
+Art
+Sound and Music
+User Interface, Game Controls
+Accessibility
+
+
+
+Rules
+
+Objects
+
+List:
+	- Player
+		- Manual
+		- NPC
+	- Game
+		- Single-player
+		- Multi-player
+	- GameStateManager
+	- GameBoard (Different boards?)
+		- Original
+	- BoardSquare
+	- Deed
+	- Dice
+	- Bank
+	- Card
+		- Chance
+		- Community Chest
+
+Player:
+	- balance : int
+	- position : Vector2/3
+	- deeds : Array<Deed>
+	- cards : Array<Card>
+	- token : Texture
+	- RollDice() : void
+	- DepositBalance(amount : int) : void
+	- WithdrawBalance(amount : int) : int
+	- Move(pases : int) : void
+	- Resign() : boolean/void
+And more …
